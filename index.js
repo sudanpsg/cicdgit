@@ -14,4 +14,8 @@ app.get("/dummy", (req, res) => {
   res.send("hello dummy");
 });
 
+app.get("/dummy1", (req, res) => {
+  res.send("hello dummy1");
+});
+
 app.listen(3000);
