@@ -6,4 +6,8 @@ app.get("/", (req, res) => {
   res.send({ Name: "hari", age: 25, skill: "cloud" });
 });
 
+app.get("/stud", (req, res) => {
+  res.send("hello world");
+});
+
 app.listen(3000);
