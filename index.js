@@ -10,4 +10,8 @@ app.get("/stud", (req, res) => {
   res.send("hello world");
 });
 
+app.get("/dummy", (req, res) => {
+  res.send("hello dummy");
+});
+
 app.listen(3000);
