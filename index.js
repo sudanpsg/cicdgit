@@ -14,6 +14,10 @@ app.get("/dummy", (req, res) => {
   res.send("hello dummy");
 });
 
+app.get("/cicd", (req, res) => {
+  res.send("This is a continous intergration and deployment");
+});
+
 app.get("/dummy1", (req, res) => {
   res.send("hello dummy1");
 });
